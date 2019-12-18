@@ -25,6 +25,10 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
+config :yachat, Yachat.UserManager.Guardian,
+       issuer: "auth_me",
+       secret_key: "sZSBQCe0pqHEOoE4rxowaWQxZ3EyfGovlDs4DxUHE+/HeuxndBtL5SMS1o7EEnQB"
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"

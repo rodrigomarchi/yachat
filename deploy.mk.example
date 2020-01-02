@@ -1,0 +1,8 @@
+
+deploy:
+	rsync -avz --progress _build/prod/rel/yachat user@hostname:~/rel
+	ssh user@hostname "./rel/yachat/bin/yachat stop"
+	ssh user@hostname "./rel/yachat/bin/yachat migrate"
+	ssh user@hostname "./rel/yachat/bin/yachat seed"
+	ssh user@hostname "./rel/yachat/bin/yachat start"
+

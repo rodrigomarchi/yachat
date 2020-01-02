@@ -4,7 +4,7 @@ defmodule Yachat.MixProject do
   def project do
     [
       app: :yachat,
-      version: "0.1.0",
+      version: "0.0.1",
       elixir: "~> 1.5",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
@@ -20,7 +20,11 @@ defmodule Yachat.MixProject do
   def application do
     [
       mod: {Yachat.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [
+        :logger,
+        :runtime_tools,
+        :edeliver
+      ]
     ]
   end
 
@@ -44,7 +48,10 @@ defmodule Yachat.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:guardian, "~> 1.2"},
-      {:argon2_elixir, "~> 2.0"}
+      {:argon2_elixir, "~> 2.0"},
+      {:edeliver, ">= 1.6.0"},
+      {:distillery, "~> 2.0", warn_missing: false},
+      {:pid_file, "~> 0.1.0"}
     ]
   end
 

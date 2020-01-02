@@ -1,3 +1,5 @@
+include ./deploy.mk
+
 run:
 	mix phx.server
 
@@ -24,4 +26,8 @@ release:
 	MIX_ENV=prod mix compile
 	npm run deploy --prefix ./assets
 	mix phx.digest
-	MIX_ENV=prod mix release --overwrite
+	MIX_ENV=prod mix distillery.release --no-tar
+
+clean:
+	mix phx.digest.clean
+

@@ -35,3 +35,7 @@ npm-debug.log
 
 .idea
 .iml
+
+/config/prod.secret.exs
+/ubuntu-bionic-18.04-cloudimg-console.log
+.deliver/releases/

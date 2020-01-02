@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/argon2_elixir" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/artificery" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/base64url" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/comeonin" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/connection" />
@@ -15,8 +16,10 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/cowlib" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/db_connection" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/decimal" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/distillery" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ecto" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ecto_sql" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/edeliver" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/elixir_make" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/file_system" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/gettext" />
@@ -29,12 +32,42 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/phoenix_html" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/phoenix_live_reload" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/phoenix_pubsub" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/pid_file" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/plug" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/plug_cowboy" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/plug_crypto" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/postgrex" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ranch" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/telemetry" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/argon2_elixir" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/artificery" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/base64url" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/comeonin" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/connection" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/cowboy" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/cowlib" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/db_connection" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/decimal" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/distillery" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/ecto" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/ecto_sql" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/elixir_make" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/gettext" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/guardian" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/jason" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/jose" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/phoenix" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/phoenix_ecto" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/phoenix_html" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/phoenix_pubsub" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/pid_file" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/plug" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/plug_cowboy" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/plug_crypto" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/postgrex" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/ranch" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/prod/lib/telemetry" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/argon2_elixir" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/base64url" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/comeonin" />
@@ -116,5 +149,13 @@
     <orderEntry type="library" name="libsodium" level="project" />
     <orderEntry type="library" name="ojson" level="project" />
     <orderEntry type="library" name="poison" level="project" />
+    <orderEntry type="library" name="distillery" level="project" />
+    <orderEntry type="library" name="artificery" level="project" />
+    <orderEntry type="library" name="eqc_ex" level="project" />
+    <orderEntry type="library" name="ex_unit_clustered_case" level="project" />
+    <orderEntry type="library" name="dialyzex" level="project" />
+    <orderEntry type="library" name="pid_file" level="project" />
+    <orderEntry type="library" name="edeliver" level="project" />
+    <orderEntry type="library" name="meck" level="project" />
   </component>
 </module>

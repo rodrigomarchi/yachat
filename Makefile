@@ -21,13 +21,6 @@ routes:
 migrate:
 	mix ecto.migrate
 
-release:
-	mix deps.get --only prod
-	MIX_ENV=prod mix compile
-	npm run deploy --prefix ./assets
-	mix phx.digest
-	MIX_ENV=prod mix distillery.release --no-tar
-
 clean:
 	mix phx.digest.clean
 
